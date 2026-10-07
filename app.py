@@ -16,7 +16,7 @@ st.divider()
 col1, col2 = st.columns(2)
 
 with col1:
-    so_tien_gui = st.number_input(b)
+    so_tien_gui = st.number_input(
         "Số tiền gửi (VNĐ):", 
         min_value=1_000_000, 
         value=100_000_000, 
