@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.image("ibbbb.jpg")
 # Cấu hình trang
 st.set_page_config(
     page_title="Tính Lãi Gửi Tiết Kiệm",
@@ -16,7 +16,7 @@ st.divider()
 col1, col2 = st.columns(2)
 
 with col1:
-    so_tien_gui = st.number_input(
+    so_tien_gui = st.number_input(b
         "Số tiền gửi (VNĐ):", 
         min_value=1_000_000, 
         value=100_000_000, 
